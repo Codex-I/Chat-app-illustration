@@ -22,7 +22,7 @@ body {
 
 }
 img {
-    max-width: 15%;
+    max-width: 35%;
 }
 
 main{
@@ -53,7 +53,8 @@ main{
     height: 5%;
     background-color: rgb(226, 231, 231);
     position: absolute;
-    top: 15%;
+    top: 6%;
+    left: 33%;
     align-self: center;
     border-radius: 12px;
 }
@@ -80,7 +81,7 @@ main{
     height: 10%;
 }
 .profile {
-    width: 25%;
+    width: 16%;
     height: 25%;
     border-radius: 50%;
     border: 2px solid white;
@@ -123,10 +124,13 @@ p {
     width: 77%;
     display: flex;
     align-self: flex-end;
-    background-color: aquamarine;
-    padding: 11%;
-    
+    gap: 10px;
+    justify-content: flex-end;    
 }
+.msg-4 img {
+    width: 30%;
+}
+
 .msg-5 {
     width: 77%;
     background-color: hsl(0, 0%, 98%);
