@@ -1,5 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serrif;
+    background-color: hsl(270, 20%, 96%);
+
+}
+img {
+    max-width: 15%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+ 
+}
+
+.phone {
+    background-color: aqua;
+    border-radius: 1em;
+    padding: 10px;
+    width: 76%;
+    
+    
+}
+.chat {
+    border-radius: 1em;
+    background-color: hsl(270, 20%, 96%);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+}
+.col-first {
+    width: 34%;
+    height: 5%;
+    background-color: white;
+    position: absolute;
+    top: 21%;
+    align-self: center;
+    border-radius: 12px;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 20px 20px 5px 5px;
+    width: 100%;
+}
+.txt {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+}
+.left {
+    width: 10%;
+    height: 10%;
+}
+.profile {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+h4 {
+    color: white;
+    font-weight: 400;
+}
+p {
+    color: darkgray;
+    font-size: 12px;
+}
+.dot {
+    width: 11%;
 }
