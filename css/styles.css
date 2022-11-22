@@ -305,7 +305,6 @@ article p {
 
     article .content {
         align-items: flex-start;
-        width: 0;
     }
 
     article p {
