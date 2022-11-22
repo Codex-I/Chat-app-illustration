@@ -27,7 +27,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
     margin: 24px auto;
     
 }
@@ -36,7 +36,7 @@ main{
     background-color: rgb(226, 231, 231);
     border-radius: 2em;
     padding: 10px;
-    width: 75%;
+    width: 87%;
     box-shadow: 5px 5px 25px grey;
 }
 .chat {
@@ -228,7 +228,7 @@ article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60vw;
+    width: 70vw;
     gap: 14px;
 }
 article h3 {
@@ -239,12 +239,14 @@ article h3 {
 
 article .content {
     display: flex;
-    line-height: 1.5;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 67vw;
+    gap: 14px;
 }
 article p {
     color: hsl(270, 7%, 64%);
     font-size: 11px;
-    width: 93%;
+    width: 100%;
     text-align: center;
 }
